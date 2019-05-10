@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="85300d853fb74325a69c1301d320254e" Name="Diagram1">
+      <Diagram DiagramId="e8d3efdcc8ef40879710730458eebeba" Name="Diagram1">
         <EntityTypeShape EntityType="DB_128040_practiceModel.FootballSchedule" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
       </Diagram>
     </edmx:Diagrams>

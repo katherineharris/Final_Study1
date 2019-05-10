@@ -13,10 +13,10 @@ namespace MVC.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class DB_128040_practiceEntities : DbContext
+    public partial class DB_128040_practiceEntities1 : DbContext
     {
-        public DB_128040_practiceEntities()
-            : base("name=DB_128040_practiceEntities")
+        public DB_128040_practiceEntities1()
+            : base("name=DB_128040_practiceEntities1")
         {
         }
     

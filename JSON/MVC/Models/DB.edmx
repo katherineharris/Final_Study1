@@ -33,7 +33,7 @@
           <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
           <Property Name="IsHomeGame" Type="Boolean" Nullable="false" />
         </EntityType>
-        <EntityContainer Name="DB_128040_practiceEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="DB_128040_practiceEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="FootballSchedules" EntityType="Self.FootballSchedule" />
         </EntityContainer>
       </Schema>
@@ -41,7 +41,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="DB_128040_practiceModelStoreContainer" CdmEntityContainer="DB_128040_practiceEntities">
+        <EntityContainerMapping StorageEntityContainer="DB_128040_practiceModelStoreContainer" CdmEntityContainer="DB_128040_practiceEntities1">
           <EntitySetMapping Name="FootballSchedules">
             <EntityTypeMapping TypeName="DB_128040_practiceModel.FootballSchedule">
               <MappingFragment StoreEntitySet="FootballSchedule">
